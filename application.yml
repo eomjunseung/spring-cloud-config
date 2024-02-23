@@ -3,7 +3,8 @@ token:
   secret: user_token_default
 
 order_service:
-  url: http://127.0.0.1:8000/order-service/%s/orders
+  # url: http://127.0.0.1:8000/order-service/%s/orders
+  url: http://ORDER-SERVICE/order-service/%s/orders
 
 gateway:
   ip: 128.0.0.1
